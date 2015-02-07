@@ -1,0 +1,16 @@
+The Worship Files Color Palette
+
+Dark Brownish
+#403C32
+
+Green
+#59AE94
+
+Orange
+#D5922D
+
+Blue
+#416A7A
+
+Tan
+#F2EDE1
