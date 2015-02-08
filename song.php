@@ -23,17 +23,42 @@ require_once('header.php');
             <div class="row">
             	<div class="col-lg-offset-1 col-lg-10">
                 	<h2 class="text-center"><?=$songinfo[0];?></h2>
-                   		<p class="item-intro text-muted text-center"><?=$songinfo[2];?></p>
-<pre>
+                   	<p class="item-intro text-muted text-center"><?=$songinfo[2];?></p>
+                    <p class="text-center"><button id="selectbutton" class="btn btn-success btn-sm">Select All Lyrics/Chords</button></p>
+<pre id="songtext">
 <?=$file_content;?>
 </pre>
-                    	<button type="button" class="btn btn-primary" onClick="history.back(1);"><i class="fa fa-arrow-left"></i> Go Back</button>
+                    <button type="button" class="btn btn-primary" onClick="history.back(1);"><i class="fa fa-arrow-left"></i> Go Back</button>
                 </div>
             </div>
         </div>
     </section>
 
 <script>
+    function SelectText(element) {
+        var doc = document
+        , text = doc.getElementById(element)
+        , range, selection
+        ;
+        if (doc.body.createTextRange) {
+            range = document.body.createTextRange();
+            range.moveToElementText(text);
+            range.select();
+        } else if (window.getSelection) {
+            selection = window.getSelection();
+            range = document.createRange();
+            range.selectNodeContents(text);
+            selection.removeAllRanges();
+            selection.addRange(range);
+        }
+    }
+
+    $(function() {
+        $('#selectbutton').click(function() {
+            SelectText('songtext');
+        });
+    });
+
 jQuery( document ).ready(function($) {
 	jQuery( 'pre' ).click( function() {
 		var refNode = $( this )[0];
