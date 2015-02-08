@@ -35,6 +35,7 @@ require_once('header.php');
     </section>
 
 <script>
+    // Select All Button V1
     function SelectText(element) {
         var doc = document
         , text = doc.getElementById(element)
@@ -59,6 +60,7 @@ require_once('header.php');
         });
     });
 
+    // Select All by clicking within Pre
 jQuery( document ).ready(function($) {
 	jQuery( 'pre' ).click( function() {
 		var refNode = $( this )[0];
