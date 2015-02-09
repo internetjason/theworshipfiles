@@ -379,6 +379,8 @@ header .intro-text .intro-lead-in, #sub-page .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
+h2.intro-lead-in { text-transform: lowercase !important; }
+
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;

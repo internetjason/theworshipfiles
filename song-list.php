@@ -10,7 +10,7 @@ require_once('header.php');
         <div class="container">
             <div class="intro-text">
                 <h1>Songs</h1>
-                <div class="intro-lead-in">click any song title to view chords &amp; lyrics</div>
+                <h2 class="intro-lead-in">worship chords &amp; lyrics formatted for onsong</h2>
                 <div class="col-sm-offset-4 col-sm-4">
                 	<input id="filtersongs" type="text" placeholder="Search Songs" class="form-control" autofocus>
                 </div>
