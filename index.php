@@ -10,7 +10,7 @@ require_once('header.php');
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To</div>
-                <div class="intro-heading">The Worship Files</div>
+                <h1 class="intro-heading">The Worship Files</h1>
                 <a href="song-list" class="btn btn-xl">Start Browsing Songs</a>
             </div>
         </div>
@@ -22,7 +22,7 @@ require_once('header.php');
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Onsong and Planning Center Formatted Worship Chords &amp; Lyrics</h3>
+                    <h3 class="section-subheading text-muted">Worship Chords and Lyrics for OnSong &amp; Planning Center Online</h3>
                 </div>
             </div>
             <div class="row">
