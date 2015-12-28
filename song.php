@@ -61,25 +61,25 @@ require_once('header.php');
     });
 
     // Select All by clicking within Pre
-//jQuery( document ).ready(function($) {
-//	jQuery( 'pre' ).click( function() {
-//		var refNode = $( this )[0];
-//		if ( $.browser.msie ) {
-//			var range = document.body.createTextRange();
-//			range.moveToElementText( refNode );
-//			range.select();
-//		} else if ( $.browser.mozilla || $.browser.opera || $.browser.chrome ) {
-//			var selection = window.getSelection();
-//			var range = document.createRange();
-//			range.selectNodeContents( refNode );
-//			selection.removeAllRanges();
-//			selection.addRange( range );
-//		} else if ( $.browser.safari ) {
-//			var selection = window.getSelection();
-//			selection.setBaseAndExtent( refNode, 0, refNode, 1 );
-//		}
-//	});
-//});
+jQuery( document ).ready(function($) {
+	jQuery( 'pre' ).click( function() {
+		var refNode = $( this )[0];
+		if ( $.browser.msie ) {
+			var range = document.body.createTextRange();
+			range.moveToElementText( refNode );
+			range.select();
+		} else if ( $.browser.mozilla || $.browser.opera || $.browser.chrome ) {
+			var selection = window.getSelection();
+			var range = document.createRange();
+			range.selectNodeContents( refNode );
+			selection.removeAllRanges();
+			selection.addRange( range );
+		} else if ( $.browser.safari ) {
+			var selection = window.getSelection();
+			selection.setBaseAndExtent( refNode, 0, refNode, 1 );
+		}
+	});
+});
 </script>
 
 <?php require_once('footer.php'); ?>
