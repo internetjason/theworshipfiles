@@ -73,6 +73,8 @@ function curPageURL() {
     <!-- Bootstrap Core JavaScript -->
     <script src="<?=$path?>js/bootstrap.min.js"></script>
 
+    <!-- Elastic JS for Auto Textarea Sizing -->
+    <script src="<?=$path?>js/elastic.js"></script>
 </head>
 
 <body id="page-top" class="index">
