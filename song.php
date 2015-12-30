@@ -15,7 +15,43 @@ $logosrc = "img/the-worship-files-logo-250.png";
 
 require_once('header.php');
 ?>
+<script type="text/javascript">
+    // <![CDATA[
+    jQuery.noConflict();
+    jQuery(document).ready(function(){
+        jQuery('.song-text').elastic();
+        jQuery('.song-text').trigger('update');
+    });
+    // ]]>
 
+    window.onload = function () {
+        function selectAll(e) {
+            var elem = e.target;
+
+            var start = 0;
+            var end = elem.value.length;
+
+            if (elem.createTextRange) {
+                var selRange = elem.createTextRange();
+                selRange.collapse(true);
+                selRange.moveStart('character', start);
+                selRange.moveEnd('character', end);
+                selRange.select();
+                elem.focus();
+            } else if (elem.setSelectionRange) {
+                elem.focus();
+                elem.setSelectionRange(start, end);
+            } else if (typeof elem.selectionStart != 'undefined') {
+                elem.selectionStart = start;
+                elem.selectionEnd = end;
+                elem.focus();
+            }
+        }
+
+        var elem = document.getElementById("songtext");
+        elem.onclick = selectAll;
+    }
+</script>
 
     <!-- Songs Section -->
     <section>
@@ -24,62 +60,16 @@ require_once('header.php');
             	<div class="col-lg-offset-1 col-lg-10">
                 	<h2 class="text-center"><?=$songinfo[0];?></h2>
                    	<p class="item-intro text-muted text-center"><?=$songinfo[2];?></p>
-                    <p class="text-center"><button id="selectbutton" class="btn btn-success btn-sm">Select All Lyrics/Chords</button></p>
-<pre id="songtext">
+<!--                    <p class="text-center"><button id="selectAllButton" class="btn btn-success btn-sm">Select All Lyrics/Chords</button></p>-->
+<p>
+<textarea class="song-text" id="songtext">
 <?=$file_content;?>
-</pre>
+</textarea>
+</p>
                     <button type="button" class="btn btn-primary" onClick="history.back(1);"><i class="fa fa-arrow-left"></i> Go Back</button>
                 </div>
             </div>
         </div>
     </section>
-
-<script>
-    // Select All Button V1
-    function SelectText(element) {
-        var doc = document
-        , text = doc.getElementById(element)
-        , range, selection
-        ;
-        if (doc.body.createTextRange) {
-            range = document.body.createTextRange();
-            range.moveToElementText(text);
-            range.select();
-        } else if (window.getSelection) {
-            selection = window.getSelection();
-            range = document.createRange();
-            range.selectNodeContents(text);
-            selection.removeAllRanges();
-            selection.addRange(range);
-        }
-    }
-
-    $(function() {
-        $('#selectbutton').click(function() {
-            SelectText('songtext');
-        });
-    });
-
-    // Select All by clicking within Pre
-jQuery( document ).ready(function($) {
-	jQuery( 'pre' ).click( function() {
-		var refNode = $( this )[0];
-		if ( $.browser.msie ) {
-			var range = document.body.createTextRange();
-			range.moveToElementText( refNode );
-			range.select();
-		} else if ( $.browser.mozilla || $.browser.opera || $.browser.chrome ) {
-			var selection = window.getSelection();
-			var range = document.createRange();
-			range.selectNodeContents( refNode );
-			selection.removeAllRanges();
-			selection.addRange( range );
-		} else if ( $.browser.safari ) {
-			var selection = window.getSelection();
-			selection.setBaseAndExtent( refNode, 0, refNode, 1 );
-		}
-	});
-});
-</script>
 
 <?php require_once('footer.php'); ?>
