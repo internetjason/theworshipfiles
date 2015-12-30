@@ -23,7 +23,7 @@ function curPageURL() {
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="description" content="<?=$pagedesc?>">
     <meta name="author" content="Jason Carroll from Midtown Church in Austin, TX">
     <meta name="google-site-verification" content="4o1XtsxnOqdo8Tr5-bXpTw86-FzPBz9Zkfvx_vFwA0A" />
