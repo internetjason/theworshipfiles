@@ -1,416 +1,689 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-    <url>
-        <loc>http://www.theworshipfiles.com/</loc>
-        <changefreq>weekly</changefreq>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song-list</loc>
-        <changefreq>weekly</changefreq>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/10,000-Reasons-(Bless-The-Lord)</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/After-All</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Alive</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/All-Around-Me</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/All-Creation-Sing</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/All-We-Need</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/All-Who-Are-Thirsty</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/All-the-Earth-Will-Sing-Your-Praises</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/All-the-Poor-and-Powerless</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Amazing-Grace-(My-Chains-Are-Gone)</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Amazing-Love</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Beautiful-Lord</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Beautiful-Things</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Beautiful</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Before-the-Throne-of-God-Above</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Blessed-Be-Your-Name</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Brokenness-Aside</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Buried-in-the-Grave</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Called-Me-Higher</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Came-to-My-Rescue</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Cannons</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Center</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Christ-is-Risen</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Come-Thou-Fount-(new)</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Come-Thou-Fount</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Come-Ye-Sinners</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Day-After-Day</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Deliver-Me</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Embracing-Accusations</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Everything</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Exalted-One</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Father-Will-You-Come</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Forever-Reign</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Found</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/From-the-Inside-Out</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Give-Me-Your-Eyes</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/God-Be-Praised</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/God-Rest-Ye-Merry-Gentlemen</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/God-Undefeatable</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/God-of-This-City</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Grace-Like-Rain</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Hallelujiah-What-a-Savior</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Happy-Day</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Hark-the-Herald-Angels-Sing</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Have-Yourself-a-Merry-Little-Christmas</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Here-I-Am</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Here-is-Our-King</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Holy-(Wedding-Day)</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Holy,-Holy,-Holy</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Hosanna</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/How-Great-Thou-Art</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/How-Great-is-Our-God</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/How-He-Loves</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Hungry</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/I-Need-You</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/I-Will-Follow</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/In-Christ-Alone</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Indescribable</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/It-is-Well-With-My-Soul</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/It-is-You</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Jesus-Paid-it-All</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Jingle-Bells</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Joy-to-the-World</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Lead-Me-to-the-Cross</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Liberty</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Little-Drummer-Boy</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Lose-My-Voice</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Love-Shines</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Love-is-Here</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Make-a-Joyful-Noise</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Manifesto</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Meant-to-Live</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Mighty-To-Save</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/No-Not-One</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/No-Rain</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Not-to-Us</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Nothing-But-the-Blood</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/O-Come-All-Ye-Faithful</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/O-Come-Let-Us-Adore-Him</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/O-Come-O-Come-Emmanuel</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/O-Holy-Night</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/O-Praise-Him</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Oceans-(Where-Feet-May-Fail)</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Oh-How-I-Need-You</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/One-Thing-Remains</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Only-You</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Open-Up-Our-Eyes</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Our-God-is-Greater</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Overwhelm-Me</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Praise-to-the-Lord</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Psalm-145</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Reason-to-Sing</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Revelation-Song</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Romans-12:1</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Set-a-Fire</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Shadows</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Sing-to-the-King</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Sing,-Sing,-Sing</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/So-I-Can-Love</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Solution</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Something-Beautiful</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Song-of-Hope</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Stronger</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Sweetly-Broken</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Taste-and-See</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/The-Day-Our-Savior-Was-Born</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/The-Greatness-of-Our-God</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/The-Name</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/The-Reason</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/The-Righteous-One</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/The-Stand</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/This-is-Amazing-Grace</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/This-is-Our-God</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Til-I-See-You</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Tis-So-Sweet-to-Trust-in-Jesus</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/To-Know-Your-Name</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Trading-My-Sorrows</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Unchanging</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Wake-Up</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/We-Are-Young</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/We-Cry-Out</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/When-I-Think-About-the-Lord</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/With-Everything</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Wonderful-Cross</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Wonderful-Merciful-Savior</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Worlds-Apart</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/You-Said</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/You're-Worthy-of-My-Praise</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Your-Grace-is-Enough</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Your-Great-Name</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Your-Love-is-All-Around</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Your-Love-is-Extravagant</loc>
-    </url>
-    <url>
-        <loc>http://www.theworshipfiles.com/song/Your-Love-is-Strong</loc>
-    </url>
+<url>
+  <loc>http://www.theworshipfiles.com/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song-list</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/10,000-Reasons-(Bless-The-Lord)</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/After-All</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Alive</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/All-Around-Me</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/All-Creation-Sing</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/All-We-Need</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/All-Who-Are-Thirsty</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/All-the-Earth-Will-Sing-Your-Praises</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/All-the-Poor-and-Powerless</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Amazing-Grace-(My-Chains-Are-Gone)</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Amazing-Love</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Beautiful-Lord</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Beautiful-Things</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Beautiful</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Before-the-Throne-of-God-Above</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Blessed-Be-Your-Name</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Brokenness-Aside</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Buried-in-the-Grave</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Called-Me-Higher</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Came-to-My-Rescue</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Cannons</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Center</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Christ-is-Risen</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Come-Thou-Fount-(new)</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Come-Thou-Fount</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Come-Ye-Sinners</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Day-After-Day</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Deliver-Me</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Embracing-Accusations</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Everything</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Exalted-One</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Father-Will-You-Come</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Forever-Reign</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Found</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/From-the-Inside-Out</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Give-Me-Your-Eyes</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/God-Be-Praised</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/God-Rest-Ye-Merry-Gentlemen</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/God-Undefeatable</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/God-With-Us</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/God-of-This-City</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Grace-Like-Rain</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Hallelujiah-What-a-Savior</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Happy-Day</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Hark-the-Herald-Angels-Sing</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Have-Yourself-a-Merry-Little-Christmas</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Here-I-Am</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Here-is-Our-King</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Holy-(Wedding-Day)</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Holy,-Holy,-Holy</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Hosanna</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/How-Great-Thou-Art</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/How-Great-is-Our-God</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/How-He-Loves</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Hungry</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/I-Need-You</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/I-Will-Follow</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/In-Christ-Alone</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Indescribable</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/It-is-Well-With-My-Soul</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/It-is-You</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Jesus-Paid-it-All</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Jingle-Bells</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Joy-to-the-World</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Lead-Me-to-the-Cross</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Liberty</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Little-Drummer-Boy</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Lose-My-Voice</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Love-Shines</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Love-is-Here</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Make-a-Joyful-Noise</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Manifesto</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Meant-to-Live</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Mighty-To-Save</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/No-Not-One</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/No-Rain</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Not-to-Us</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Nothing-But-the-Blood</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/O-Come-All-Ye-Faithful</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/O-Come-Let-Us-Adore-Him</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/O-Come-O-Come-Emmanuel</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/O-Holy-Night</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/O-Praise-Him</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Oceans-(Where-Feet-May-Fail)</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Oh-How-I-Need-You</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/One-Thing-Remains</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Only-You</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Open-Up-Our-Eyes</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Our-God-is-Greater</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Overwhelm-Me</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Praise-to-the-Lord</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Psalm-145</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Reason-to-Sing</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Revelation-Song</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Romans-12:1</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Set-a-Fire</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Shadows</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Sing-to-the-King</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Sing,-Sing,-Sing</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/So-I-Can-Love</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Solution</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Something-Beautiful</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Song-of-Hope</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Stronger</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Sweetly-Broken</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Taste-and-See</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/The-Day-Our-Savior-Was-Born</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/The-Greatness-of-Our-God</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/The-Name</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/The-Reason</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/The-Righteous-One</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/The-Stand</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/This-is-Amazing-Grace</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/This-is-Our-God</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Til-I-See-You</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Tis-So-Sweet-to-Trust-in-Jesus</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/To-Know-Your-Name</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Trading-My-Sorrows</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Unchanging</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Wake-Up</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/We-Are-Young</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/We-Cry-Out</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/When-I-Think-About-the-Lord</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/With-Everything</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Wonderful-Cross</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Wonderful-Merciful-Savior</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Worlds-Apart</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/You-Said</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/You're-Worthy-of-My-Praise</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Your-Grace-is-Enough</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Your-Great-Name</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Your-Love-is-All-Around</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Your-Love-is-Extravagant</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.theworshipfiles.com/song/Your-Love-is-Strong</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
 </urlset>
