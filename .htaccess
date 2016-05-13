@@ -12,3 +12,5 @@ RewriteEngine On
 RewriteRule ^song/([^/]*)$ song.php?name=$1 [L]
 
 RewriteRule ^song-list$ /song-list.php [L]
+
+RewriteRule ^protecting-artists-rights$ /protecting-artists-rights.php [L]
