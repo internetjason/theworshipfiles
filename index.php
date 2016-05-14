@@ -2,6 +2,8 @@
 $pagetitle = "The Worship Files - Worship Songs Chords and Lyrics";
 $pagedesc = "Worship song chords and lyrics formatted for OnSong and Planning Center Online. No bells and whistles, just easy copy/paste for those who need it.";
 $logosrc = "img/the-worship-files-logo-250-white.png";
+$contactscripts = '<script src="' . $path . '/js/jqBootstrapValidation.js"></script>
+<script src="' . $path . '/js/contact_me.js"></script>';
 require_once('header.php');
 ?>
 

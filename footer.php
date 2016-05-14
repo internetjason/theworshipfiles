@@ -30,8 +30,11 @@
     <script src="<?=$path?>/js/cbpAnimatedHeader.js"></script>
 
     <!-- Contact Form JavaScript -->
+    <?=$contactscripts?>
+<!--
     <script src="<?=$path?>/js/jqBootstrapValidation.js"></script>
     <script src="<?=$path?>/js/contact_me.js"></script>
+-->
 
     <!-- Custom Theme JavaScript -->
     <script src="<?=$path?>/js/agency.js"></script>
