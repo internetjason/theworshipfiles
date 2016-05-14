@@ -990,3 +990,6 @@ textarea.song-text {
     resize: none;
 }
 
+section.padding-small {
+    padding: 60px 0;
+}
