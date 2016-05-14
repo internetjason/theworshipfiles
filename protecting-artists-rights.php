@@ -1,20 +1,21 @@
 <?php
-$pagetitle = "The Worship Files - Worship Songs Chords and Lyrics";
-$pagedesc = "Worship song chords and lyrics formatted for OnSong and Planning Center Online. No bells and whistles, just easy copy/paste for those who need it.";
+$pagetitle = "The Worship Files - Protecting Artist Rights";
+$pagedesc = "Let's do our best to protect the artists who are writing these great worship songs.";
 $logosrc = "img/the-worship-files-logo-250.png";
 require_once('header.php');
 ?>
 
 <!-- Form Section -->
-<section class="bg-light-gray">
+<section>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
                 <form name="sentMessage" id="voteForm" novalidate>
                     <div class="row">
+                        <h1 class="text-center">Protecting Artists' Rights</h1>
                         <div class="form-group lead text-center">
                             Would you be willing to pay a $1/mo. subscription fee to legally
-                            view/copy/paste/download chords &amp; lyrics in a way that protects artists' rights?
+                            view/copy/paste/download chords &amp; lyrics in a way that protects artists' rights?<br>
                             <input name="vote" type='hidden' value="Yes"/>
                             <div class="btn-group" data-toggle="buttons">
                                 <button type="button" class="btn btn-default btn-lg active" data-radio-name="radio">Yes</button>
@@ -52,6 +53,7 @@ require_once('header.php');
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
                             <button type="submit" class="btn btn-xl">Send Message</button>
+                            <p>Read below for an explanation of why you're seeing this form.</p>
                         </div>
                     </div>
                 </form>
@@ -59,11 +61,11 @@ require_once('header.php');
         </div>
     </div>
 </section>
-<section>
+<section class="bg-light-gray padding-small">
     <div class="container">
         <div class="row">
             <div class="col-sm-offset-1 col-sm-10">
-                <h3 class="item-intro text-muted text-center">Here's the deal...</h3>
+                <h2 class="item-intro text-muted text-center">Here's the deal...</h2>
                 <p>
                     I have been notified that any site offering free chords and lyrics to copyrighted material
                     is in breach of laws meant to protect artists. While there are some high quality paid
@@ -82,5 +84,7 @@ require_once('header.php');
         </div>
     </div>
 </section>
+
+<script src="<?=$path?>/js/contact_vote.js"></script>
 
 <?php require_once('footer.php'); ?>
