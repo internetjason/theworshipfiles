@@ -1,0 +1,226 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Chords and Lyrics for Beautiful Things by Gungor. Copy and paste right into OnSong, Planning Center Online or another app of your choice.">
+        <meta name="author" content="Jason Carroll from Midtown Church in Austin, TX">
+        <meta name="google-site-verification" content="4o1XtsxnOqdo8Tr5-bXpTw86-FzPBz9Zkfvx_vFwA0A" />
+
+        <title>Beautiful Things by Gungor - The Worship Files</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/agency.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+        <!-- Favicon and App Icon -->
+        <link rel="icon" href="img/favicon.png" sizes="16x16 32x32 64x64 128x128 256x256">
+        <link rel="apple-touch-icon-precomposed" href="img/appicon.png">
+
+        <!-- Home Screen App Name -->
+        <meta name="apple-mobile-web-app-title" content="Worship Files">
+
+        <!-- Facebook Open Graph Tags -->
+        <meta property="og:title" content="Beautiful Things by Gungor - The Worship Files"/>
+        <meta property="og:site_name" content="The Worship Files"/>
+        <meta property="og:url" content="http://www.theworshipfiles.com/song/Beautiful-Things"/>
+        <meta property="og:description" content="Chords and Lyrics for Beautiful Things by Gungor. Copy and paste right into OnSong, Planning Center Online or another app of your choice."/>
+        <meta property="og:image" content="http://www.theworshipfiles.com/img/appicon.png"/>
+
+        <!-- jQuery Version 1.11.0 -->
+        <!--<script src="js/jquery-1.11.0.js"></script>-->
+        <script type='text/javascript' src='http://code.jquery.com/jquery-1.9.1.js'></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Elastic JS for Auto Textarea Sizing -->
+        <script src="js/elastic.js"></script>
+
+        <script type="text/javascript">
+            window.onload = function () {
+                function selectAll(e) {
+                    var elem = e.target;
+
+                    var start = 0;
+                    var end = elem.value.length;
+
+                    if (elem.createTextRange) {
+                        var selRange = elem.createTextRange();
+                        selRange.collapse(true);
+                        selRange.moveStart('character', start);
+                        selRange.moveEnd('character', end);
+                        selRange.select();
+                        elem.focus();
+                    } else if (elem.setSelectionRange) {
+                        elem.focus();
+                        elem.setSelectionRange(start, end);
+                    } else if (typeof elem.selectionStart != 'undefined') {
+                        elem.selectionStart = start;
+                        elem.selectionEnd = end;
+                        elem.focus();
+                    }
+                }
+
+                var elem = document.getElementById("test");
+                elem.onclick = selectAll;
+            }
+        </script>
+        <script type="text/javascript">
+            // <![CDATA[
+            jQuery.noConflict();
+            jQuery(document).ready(function(){
+                jQuery('.song-text').elastic();
+                jQuery('.song-text').trigger('update');
+            });
+            // ]]>
+        </script>
+    </head>
+
+    <body id="page-top" class="index">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-page navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navmain">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="../"><img src="img/the-worship-files-logo-250.png" class="img-responsive" alt="The Worship Files - Worship Chords and Lyrics"></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navmain">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="page-scroll" href="../song-list">Songs</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="../#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="../#resources">Resources</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="../#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Songs Section -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-offset-1 col-lg-10">
+                        <h2 class="text-center">Beautiful Things</h2>
+                        <p class="item-intro text-muted text-center">Gungor</p>
+<!--                        <p class="text-center"><button id="selectbutton" class="btn btn-success btn-sm">Select All Lyrics/Chords</button></p>-->
+                        <textarea id="test" class="song-text">
+Beautiful Things
+Gungor
+Key: D
+
+Verse 1:
+G        D
+All this pain
+G            D
+I wonder if I’ll ever find my way
+G                 Bm7   A   G  D
+I wonder if I my life could really change at all
+G        D
+All this earth
+G            D
+Could all that is lost ever be found
+G                 Bm7   A   G  D
+Could a garden come up from this ground at all
+
+Chorus:
+D
+You make beautiful things
+You make beautiful things out of the dust
+You make beautiful things
+You make beautiful things out of us
+
+Verse 2:
+All around
+Life is springing up from this old ground
+Out of chaos life is being found in You
+
+Chorus 2:
+D
+You make beautiful things
+You make beautiful things out of the dust
+G
+You make beautiful things
+G
+You make beautiful things out of us
+
+Instrumental:
+D  A/C#  G/B  D
+
+
+Bridge:
+D           A/C#         G         D
+You make me new, You are making me new
+                        </textarea>
+                        <button type="button" class="btn btn-primary" onClick="history.back(1);"><i class="fa fa-arrow-left"></i> Go Back</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <span class="copyright">Copyright &copy; The Worship Files 2014</span>
+                    </div>
+                    <div class="col-md-8 text-right">
+                        <span class="copyright">Created by Jason P. Carroll, Music Guy at <a href="http://www.midtownaustin.org/" target="_blank">Midtown Church Austin</a></span>
+                        <!--<ul class="list-inline quicklinks">
+</ul>-->
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Plugin JavaScript -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/cbpAnimatedHeader.js"></script>
+
+        <!-- Contact Form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="js/agency.js"></script>
+    </body>
+
+</html>
