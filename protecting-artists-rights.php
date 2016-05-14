@@ -2,6 +2,8 @@
 $pagetitle = "The Worship Files - Protecting Artist Rights";
 $pagedesc = "Let's do our best to protect the artists who are writing these great worship songs.";
 $logosrc = "img/the-worship-files-logo-250.png";
+$contactscripts = '<script src="' . $path . '/js/jqBootstrapValidation.js"></script>
+<script src="' . $path . '/js/contact_vote.js"></script>';
 require_once('header.php');
 ?>
 
@@ -9,23 +11,23 @@ require_once('header.php');
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-10 col-sm-offset-1">
                 <form name="sentMessage" id="voteForm" novalidate>
                     <div class="row">
                         <h1 class="text-center">Protecting Artists' Rights</h1>
                         <div class="form-group lead text-center">
                             Would you be willing to pay a $1/mo. subscription fee to legally
                             view/copy/paste/download chords &amp; lyrics in a way that protects artists' rights?<br>
-                            <input name="vote" type='hidden' value="Yes"/>
+                            <input name="vote" id="vote" type='hidden' value="Yes" />
                             <div class="btn-group" data-toggle="buttons">
-                                <button type="button" class="btn btn-default btn-lg active" data-radio-name="radio">Yes</button>
-                                <button type="button" class="btn btn-default btn-lg" data-radio-name="radio">No</button>
+                                <button type="button" class="btn btn-default btn-lg active" data-radio-name="vote">Yes</button>
+                                <button type="button" class="btn btn-default btn-lg" data-radio-name="vote">No</button>
                             </div>
 
                             <script>
                                 $('.btn[data-radio-name]').click(function() {
-                                    $('.btn[data-radio-name="'+$(this).data('radioName')+'"]').removeClass('active');
-                                    $('input[name="'+$(this).data('radioName')+'"]').val(
+                                    $('.btn[data-radio-name="' + $(this).data('radioName') + '"]').removeClass('active');
+                                    $('input[name="' + $(this).data('radioName') + '"]').val(
                                         $(this).text()
                                     );
                                 });
@@ -35,15 +37,11 @@ require_once('header.php');
 
                         <div class="col-md-6 col-md-offset-3">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name." name="name">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <input type="tel" class="form-control" placeholder="Your Phone" id="phone">
+                                <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address." name="email">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -53,6 +51,7 @@ require_once('header.php');
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
                             <button type="submit" class="btn btn-xl">Send Message</button>
+                            <br><br>
                             <p>Read below for an explanation of why you're seeing this form.</p>
                         </div>
                     </div>
@@ -84,7 +83,5 @@ require_once('header.php');
         </div>
     </div>
 </section>
-
-<script src="<?=$path?>/js/contact_vote.js"></script>
 
 <?php require_once('footer.php'); ?>
