@@ -56,7 +56,8 @@ $exclude = array(".","..",".htaccess");
 
 ?>
                     <li>
-                        <a href="song/<?=$link;?>"><?=$dir;?> <span class="artist"> - <?=$songinfo[2]?></span></a>
+<!--                        <a href="song/<?=$link;?>"><?=$dir;?> <span class="artist"> - <?=$songinfo[2]?></span></a>-->
+                        <a href="protecting-artists-rights"><?=$dir;?> <span class="artist"> - <?=$songinfo[2]?></span></a>
                     </li>
 <?php
 				$count++;
