@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Select All Test</title>
+    <script type="text/javascript">
+        window.onload = function () {
+                function selectAll(e) {
+                    var elem = e.target;
+
+                    var start = 0;
+                    var end = elem.value.length;
+
+                    if (elem.createTextRange) {
+                        var selRange = elem.createTextRange();
+                        selRange.collapse(true);
+                        selRange.moveStart('character', start);
+                        selRange.moveEnd('character', end);
+                        selRange.select();
+                        elem.focus();
+                    } else if (elem.setSelectionRange) {
+                        elem.focus();
+                        elem.setSelectionRange(start, end);
+                    } else if (typeof elem.selectionStart != 'undefined') {
+                        elem.selectionStart = start;
+                        elem.selectionEnd = end;
+                        elem.focus();
+                    }
+                }
+
+                var elem = document.getElementById("myField");
+                elem.onclick = selectAll;
+            }
+    </script>
+</head>
+
+<body>
+    <input id="myField" value="this is the text in there">
+</body>
+</html>
