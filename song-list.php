@@ -10,7 +10,7 @@ require_once('header.php');
         <div class="container">
             <div class="intro-text">
                 <h1>Songs</h1>
-                <h2 class="intro-lead-in">worship chords &amp; lyrics formatted for onsong</h2>
+                <!--<h2 class="intro-lead-in">worship chords &amp; lyrics formatted for onsong</h2>-->
                 <div class="col-sm-offset-4 col-sm-4">
                 	<input id="filtersongs" type="text" placeholder="Search Songs" class="form-control" autofocus>
                 </div>
@@ -40,32 +40,33 @@ $percol = number_format($i / 2,0);
 $count = 0;
 
 $dir = 'songs/';
-$exclude = array(".","..",".htaccess");
-    if (is_dir($dir)) {
-        $files = scandir($dir);
+	$exclude = array(".","..",".htaccess");
+	if (is_dir($dir)) {
+		$files = scandir($dir);
 		$files = str_replace(".txt","",$files);
-        foreach($files as $key=>$dir){
-            if(!in_array($dir, $exclude)){
-			$link = str_replace(" ","-",$dir);
+		foreach($files as $key=>$dir){
+			if(!in_array($dir, $exclude)){
+				$link = str_replace(" ","-",$dir);
+				$link = str_replace("'","APOS",$dir);
 
-			$file_content = file_get_contents("songs/" . $dir . ".txt");
-			$songinfo = preg_split('/(\r|\n)/', $file_content);
+				$file_content = file_get_contents("songs/" . $dir . ".txt");
+				$songinfo = preg_split('/(\r|\n)/', $file_content);
 
 				if ($count % $percol == 0)
-				   echo '                <div class="col-sm-6">'."\n\r";
+					echo '                <div class="col-sm-6">'."\n\r";
 
-?>
-                    <li>
-<!--                        <a href="song/<?=$link;?>"><?=$dir;?> <span class="artist"> - <?=$songinfo[2]?></span></a>-->
-                        <a href="protecting-artists-rights"><?=$dir;?> <span class="artist"> - <?=$songinfo[2]?></span></a>
-                    </li>
-<?php
-				$count++;
+	?>
+	<li>
+		<a href="song/<?=$link;?>"><?=$dir;?> <span class="artist"> - <?=$songinfo[2]?></span></a>
+		<!--<a href="protecting-artists-rights"><?=$dir;?> <span class="artist"> - <?=$songinfo[2]?></span></a>-->
+	</li>
+	<?php
+		$count++;
 				if ($count % $percol == 0)
-				   echo '                </div>'."\n\r";
-        }
-    }
-}
+					echo '                </div>'."\n\r";
+			}
+		}
+	}
 ?>
                 </ol>
             </div>

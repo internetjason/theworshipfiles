@@ -29,18 +29,10 @@ require_once('header.php');
             </div>
             <div class="row">
             	<div class="col-lg-12">
-                	<p>I am always looking for great tools to aid in the planning and leading of worship. The OnSong app for iPad
-                    and iPhone and Planning Center Online are two of essential tools in my arsenal (and I should also mention the iKlip).
-                    As such, I am constantly loading up chords and lyrics to worship songs in each program. I've found that the formatting
-                    can be exactly the same for both, which is nice, but there’s a problem – every chord and lyric repository on the internet!
-                    Don't get me wrong, they’re really great tools – they’re just a little too great. All of the features like hyperlinks
-                    that show chords charts when you hover, auto-scrollers, key changers, etc. all make for a web-fun but iPad un-friendly experience.
-                    It's even quite cumbersome on the computer since every copy/paste ends up having odd spacing or crazy hyperlinks everywhere.</p>
-
-                    <p>Enter <em>The Worship Files</em>. This is an old domain name that I've resurrected for the purpose of proving OnSong and
-                    Planning Center Online friendly formats. All of the songs here are actually uploaded straight from my OnSong app and there
-                    are some scripts that display them here on the site automatically. Feel free <a href="song-list">browse the songs</a> and copy/paste into your OnSong, PCO or other
-                    app. I hope the site is helpful!</p>
+					<p>This is a site for personal use and to act as a tool for the worship team at <a href="https://www.midtownaustin.org" target="_blank">Midtown Church</a> in Austin, TX.</p>
+					<p>In case you have happened upon this site at random, feel free to browse and check out the resources below,
+						but please do not download these songs as they are <a href="protecting-artists-rights.php">copyrighted</a> by their respective artist. We use our
+					church's CCLI license to distrubute the charts amongst our team.</p>
                 </div>
             </div>
         </div>

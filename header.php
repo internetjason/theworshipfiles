@@ -15,7 +15,13 @@ function curPageURL() {
  return $pageURL;
 }
 ?>
-
+<?php
+$pagetitle = "The Worship Files - Worship Songs Chords and Lyrics";
+$pagedesc = "Worship song chords and lyrics formatted for OnSong and Planning Center Online. No bells and whistles, just easy copy/paste for those who need it.";
+$contactscripts = '<script src="' . $path . '/js/jqBootstrapValidation.js"></script>
+<script src="' . $path . '/js/contact_me.js"></script>';
+require_once('header.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,6 +33,9 @@ function curPageURL() {
     <meta name="description" content="<?=$pagedesc?>">
     <meta name="author" content="Jason Carroll from Midtown Church in Austin, TX">
     <meta name="google-site-verification" content="4o1XtsxnOqdo8Tr5-bXpTw86-FzPBz9Zkfvx_vFwA0A" />
+
+	<!-- Prevent Search Engines From Indexing -->
+	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"></META>
 
     <title><?=$pagetitle;?></title>
 
@@ -91,6 +100,7 @@ function curPageURL() {
                 <a class="navbar-brand page-scroll" href="<?=$path;?>"><img src="<?=$path?><?=$logosrc;?>" class="img-responsive" alt="The Worship Files - Worship Chords and Lyrics"></a>
             </div>
 
+
             <div class="collapse navbar-collapse" id="navmain">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
@@ -107,5 +117,6 @@ function curPageURL() {
                     </li>
                 </ul>
             </div>
+
         </div>
     </nav>

@@ -1,6 +1,7 @@
 <?php
 $song = $_GET['name'];
 $song = str_replace("-"," ",$song);
+$song = str_replace("APOS","'",$song);
 $song = $song . ".txt";
 $file_content = file_get_contents("songs/" . $song);
 
